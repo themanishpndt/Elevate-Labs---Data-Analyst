@@ -17,18 +17,32 @@ This project analyzes Superstore sales data to uncover business insights, trends
 ## 📁 Project Structure
 
 ```
-Elevate-Labs---Data-Analyst/
+Task 2/
 │
-├── Task 2/
-│   ├── data/
-│   │   ├── Superstore_sample.csv      # Sample dataset
-│   │   └── Superstore_cleaned.csv     # Generated cleaned data
-│   ├── src/
-│   │   └── analysis.py                # Main analysis script
-│   ├── outputs/
-│   │   └── charts/                    # Generated visualizations
-│   ├── Screenshots/                   # Dashboard screenshots
-│   └── README.md                      # This file
+├── data/
+│   ├── Superstore_sample.csv          # Original sample dataset
+│   └── Superstore_cleaned.csv         # Processed and cleaned data
+│
+├── notebooks/
+│   └── analysis_notebook.ipynb        # Jupyter notebook with exploratory analysis
+│
+├── outputs/
+│   ├── charts/
+│   │   ├── sales_profit_over_time.png      # Time series analysis
+│   │   ├── sales_by_region.png             # Regional performance
+│   │   ├── profit_margin_by_category.png   # Category profitability
+│   │   ├── discount_vs_profit.png          # Discount impact analysis
+│   │   └── top10_products_profit.png       # Top performing products
+│   │
+│   └── storyboard.pdf                 # Dashboard design and storyboard
+│
+├── src/
+│   └── analysis.py                    # Main Python analysis script
+│
+├── README.md                          # Project documentation
+├── analysis_notes.md                  # Technical notes and methodology
+├── interview_questions_answers.md     # Q&A about the analysis
+└── LICENSE                           # Project license
 ```
 
 ## 🛠️ Technologies Used
