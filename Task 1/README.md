@@ -1,269 +1,214 @@
-# Data Analyst Internship - Task 1: Data Cleaning & Preprocessing
 
-📋 Project Overview
+# 📊 Task 1 - Data Cleaning & Preprocessing (Elevate Labs Internship)
 
-This repository contains my complete solution for Task 1 of the Data Analyst Internship at Elevate Labs. The project demonstrates comprehensive data cleaning and preprocessing skills on a raw customer dataset containing various real-world data quality issues.
+## 🎯 Objective
+The goal of this task is to **clean and preprocess a raw dataset** containing common real-world issues such as:
+- Missing values
+- Duplicate records
+- Inconsistent formatting (text, dates, numeric values)
+- Outliers and extreme values
+- Invalid data entries (e.g., malformed emails, unrealistic ages)
 
-🎯 Objective
+This ensures the dataset is **accurate, consistent, and ready for analysis or modeling**.
 
-Clean and prepare a raw dataset by handling:
+---
 
-· ✅ Missing values identification and treatment
-· ✅ Duplicate records removal
-· ✅ Inconsistent formats standardization (dates, text categories)
-· ✅ Column headers normalization
-· ✅ Data type corrections and validation
-· ✅ Outlier detection and treatment
-
-📊 Dataset Information
-
-Source: Customer Segmentation Dataset (Mall Customer Data style)
-Original Dataset: raw_dataset.csv (300 records with deliberate errors)
-Cleaned Dataset: cleaned_dataset.csv (255 processed records ready for analysis)
-
-Dataset Columns Handled:
-
-· CustomerID - Unique customer identifier
-· Gender - Customer gender (with inconsistencies)
-· Age - Customer age (missing values and outliers)
-· Annual Income (k$) - Income with various formats and symbols
-· Spending Score (1-100) - Customer spending metric
-· JoinDate - Multiple date formats
-· Country - Inconsistent country naming
-· Email - Validation and cleaning
-· PurchaseCount - Transaction history
-· LastPurchaseDate - Date standardization
-· Churn - Customer retention status
-
-🛠️ Technical Implementation
-
-Tools & Technologies Used
-
-· Python 3.x with Pandas, NumPy for data manipulation
-· Jupyter Notebook for interactive analysis
-· Data Validation Functions for business logic checks
-
-Data Cleaning Pipeline
-
-1. Data Quality Assessment
-
-```python
-# Initial assessment
-print(f"Original dataset shape: {df.shape}")
-print("Missing values per column:")
-print(df.isnull().sum())
-print(f"Duplicate records: {df.duplicated().sum()}")
-```
-
-2. Missing Values Treatment
-
-· Numerical columns: Filled with median (Age, Income, Spending Score)
-· Categorical columns: Filled with mode (Gender, Country)
-· Date columns: Strategic imputation based on business logic
-· Email validation: Separate flag for invalid emails
-
-3. Duplicate Records Handling
-
-· Removed 45 exact duplicate records using .drop_duplicates()
-· Maintained data integrity while eliminating redundancy
-
-4. Data Standardization
-
-· Gender: Standardized to "Male"/"Female" format
-· Country Names: Normalized to consistent format (Title Case)
-· Column Headers: Converted to snake_case format
-· Text Data: Stripped whitespace and standardized casing
-
-5. Date Format Conversion
-
-· Unified multiple date formats to dd-mm-yyyy
-· Handled invalid date entries with error coercion
-· Converted to datetime objects for proper analysis
-
-6. Data Type Corrections
-
-· Age → Integer with outlier treatment (10-100 range)
-· Annual Income → Float with currency symbol removal
-· Spending Score → Integer with range validation
-· Date columns → DateTime objects
-
-7. Outlier Detection & Treatment
-
-· Identified outliers using IQR method
-· Capped extreme values in numerical columns
-· Treated invalid entries (negative ages, unrealistic values)
-
-8. Data Validation & Business Logic
-
-· Email format validation with proper checking
-· Date consistency validation (last purchase ≥ join date)
-· Churn flag standardization (Y/Yes/True/1 → 1, others → 0)
-
-📁 Repository Structure
-
+## 📂 Repository Structure
 ```
 DataAnalyst_Task1_ElevateLabs/
-├── data/
-│   ├── raw_dataset.csv          # Original dataset with issues (300 records)
-│   └── cleaned_dataset.csv      # Processed clean dataset (255 records)
-├── scripts/
-│   └── task1_cleaning.py        # Python script for automated cleaning
-├── notebooks/
-│   └── task1_cleaning.ipynb     # Jupyter notebook with step-by-step analysis
-├── docs/
-│   ├── data_dictionary.md       # Comprehensive data documentation
-│   └── cleaning_report.md       # Detailed cleaning metrics and results
-├── requirements.txt             # Python dependencies
-└── README.md                   # This documentation file
+│── raw_dataset.csv              # Original noisy dataset with issues
+│── cleaned_dataset.csv           # Final cleaned dataset ready for analysis
+│── task1_cleaning.py            # Python script to reproduce the cleaning process
+│── task1_cleaning.ipynb         # Jupyter Notebook (step-by-step explanation)
+│── report.md                    # Deep dive report (before vs after cleaning)
+│── data_dictionary.md           # Explanation of each field/column
+│── requirements.txt             # Python dependencies
+│── images/                      # Charts & visualizations of data before/after cleaning
+│   ├── age_hist_raw.png
+│   ├── age_hist_cleaned.png
+│   ├── income_boxplot_raw.png
+│   ├── income_boxplot_cleaned.png
+│   ├── gender_counts_raw.png
+│   └── gender_counts_cleaned.png
+│── README.md                    # Project documentation (this file)
+│── LICENSE                      # Open-source license (MIT)
+│── .gitignore                   # Git ignore file
 ```
 
-📊 Results & Performance Metrics
+---
 
-Data Quality Before Cleaning:
+## 🛠 Tools & Libraries Used
+- **Python** – Data cleaning and preprocessing  
+- **Pandas** – Data handling and transformations  
+- **NumPy** – Numerical computations  
+- **Matplotlib** – Data visualization (before/after comparisons)  
+- **Jupyter Notebook** – Documentation and step-by-step cleaning process  
 
-· Total Records: 300
-· Missing Values: 47 entries across columns
-· Duplicate Records: 45
-· Inconsistent Formats: 89 entries
-· Data Quality Score: 68%
+---
 
-Data Quality After Cleaning:
+## 🧹 Data Cleaning Steps Performed
 
-· Total Records: 255 (clean, unique records)
-· Missing Values: 0 (completely resolved)
-· Duplicate Records: 0 (100% removed)
-· Consistent Formats: 100% achieved
-· Data Quality Score: 98%
+### 1. Handling Missing Values
+- Identified using `.isnull().sum()`
+- Filled `Age` with **median**, `Annual Income` with **mean**, `Spending Score` with **median**
+- Missing `JoinDate` and `LastPurchaseDate` were filled with the **mode or logical replacements**
 
-Key Improvements Achieved:
+### 2. Removing Duplicates
+- Removed using `.drop_duplicates()`
+- Ensured unique records per `CustomerID`
 
-1. 100% Data Integrity - No missing values or duplicates
-2. Format Consistency - Uniform data formats across all columns
-3. Business Readiness - Dataset ready for analysis and modeling
-4. Automated Pipeline - Reproducible cleaning process
+### 3. Standardizing Text Data
+- **Gender** standardized → `Male`, `Female`, `Unknown`
+- **Country** standardized → e.g., `"usa"`, `"U.S.A"`, `"us"` → `United States`
+- **Email** validated for proper format (`@` and domain)
 
-🚀 Installation & Usage
+### 4. Fixing Data Types
+- Converted `Age` to **integer**
+- Converted `JoinDate` and `LastPurchaseDate` to **datetime**
+- Converted categorical fields (`Gender`, `Churn`) to consistent formats
 
-Prerequisites
+### 5. Outlier Treatment
+- Identified outliers using **IQR method** on `Annual Income`
+- Applied **capping** to reduce the influence of extreme values
 
-· Python 3.7+
-· pip package manager
+### 6. Column Name Standardization
+- Converted to **lowercase**
+- Replaced spaces & special characters with underscores (`annual_income_k`)
 
-Installation
+---
 
+## 📊 Visual Insights (Before vs After Cleaning)
+
+- **Age Distribution**: Unrealistic values (e.g., 5, 150) replaced with valid ages
+- **Annual Income**: Outliers capped, missing values filled
+- **Gender Counts**: Standardized across multiple inconsistent labels
+- **Country Field**: Normalized to consistent country names
+
+*All visuals are available under the `/images` folder*
+
+---
+
+## 📜 Deliverables
+- ✅ `raw_dataset.csv` → original messy dataset
+- ✅ `cleaned_dataset.csv` → final processed dataset
+- ✅ `task1_cleaning.py` → reproducible cleaning pipeline
+- ✅ `task1_cleaning.ipynb` → notebook with explanation + profiling
+- ✅ `report.md` → summary of issues and fixes
+- ✅ `data_dictionary.md` → detailed field descriptions
+
+---
+
+## 📘 Interview Prep Questions (with Answers)
+
+### 1. What are missing values and how do you handle them?
+**Answer**: Missing values are blanks or nulls in a dataset. They can be handled by:
+- Removing rows/columns with `dropna()`
+- Filling with statistical measures using `fillna()` (mean/median/mode)
+- Predictive imputation for advanced cases
+
+### 2. How do you treat duplicate records?
+**Answer**: Use `.drop_duplicates()` in Pandas or "Remove Duplicates" in Excel. Keep the first occurrence unless business logic requires specific handling.
+
+### 3. Difference between `dropna()` and `fillna()`?
+**Answer**: 
+- `dropna()` removes rows/columns with missing values
+- `fillna()` replaces missing values with specified values (mean, median, mode, or custom)
+
+### 4. What is outlier treatment and why is it important?
+**Answer**: Outliers are extreme values that don't follow the data pattern. Treatment is important because outliers can skew statistical analyses and machine learning models. Common methods include capping, transformation, or removal.
+
+### 5. Explain the process of standardizing data
+**Answer**: Standardization involves making data consistent across the dataset:
+- Text normalization (lowercase/uppercase)
+- Category standardization (Male/M → Male)
+- Date format consistency
+- Unit standardization
+
+### 6. How do you handle inconsistent data formats (e.g., dates)?
+**Answer**: Use `pd.to_datetime()` in Python with appropriate format specifications, or use Excel's "Format Cells" feature to standardize date formats.
+
+### 7. What are common data cleaning challenges?
+**Answer**: 
+- Missing data handling decisions
+- Duplicate identification and removal
+- Inconsistent category labels
+- Outlier detection and treatment
+- Data type conversions
+- Text cleaning and standardization
+
+### 8. How do you check data quality?
+**Answer**: 
+- Summary statistics (`.describe()`)
+- Missing value analysis (`.isnull().sum()`)
+- Unique value counts (`.nunique()`)
+- Data type validation (`.dtypes`)
+- Data profiling and validation rules
+
+---
+
+## 🚀 How to Run This Project
+
+### Prerequisites
+- Python 3.7+
+- pip package manager
+
+### Installation & Execution
+
+1. **Clone the repository**:
 ```bash
-# Clone the repository
 git clone https://github.com/yourusername/DataAnalyst_Task1_ElevateLabs.git
 cd DataAnalyst_Task1_ElevateLabs
+```
 
-# Install dependencies
+2. **Install dependencies**:
+```bash
 pip install -r requirements.txt
 ```
 
-Running the Cleaning Pipeline
-
-Option 1: Using Jupyter Notebook
-
+3. **Run the cleaning script**:
 ```bash
-jupyter notebook notebooks/task1_cleaning.ipynb
+python task1_cleaning.py
 ```
+*This will generate `cleaned_dataset.csv`*
 
-Option 2: Using Python Script
-
+4. **Explore the notebook**:
 ```bash
-python scripts/task1_cleaning.py
+jupyter notebook task1_cleaning.ipynb
 ```
-
-Option 3: Manual Execution
-
-1. Examine data/raw_dataset.csv to understand initial data issues
-2. Run the cleaning script to generate cleaned data
-3. Verify results in data/cleaned_dataset.csv
-4. Review docs/cleaning_report.md for detailed metrics
-
-💡 Learning Outcomes
-
-Technical Skills Demonstrated:
-
-· ✅ Advanced Pandas data manipulation techniques
-· ✅ Comprehensive data quality assessment methods
-· ✅ Automated data cleaning pipeline development
-· ✅ Statistical methods for missing value imputation
-· ✅ Business logic implementation for data validation
-
-Analytical Skills Developed:
-
-· ✅ Problem-solving for complex data quality issues
-· ✅ Decision-making for appropriate treatment strategies
-· ✅ Documentation and reporting best practices
-· ✅ Quality assurance and validation processes
-
-Business Understanding Gained:
-
-· ✅ Importance of clean data for accurate business insights
-· ✅ Impact of data quality on analytical outcomes
-· ✅ Best practices for data preprocessing in real-world scenarios
-· ✅ Data governance principles implementation
-
-🔧 Customization & Extension
-
-Adding New Data Quality Rules:
-
-```python
-# Example: Add custom validation rule
-def validate_business_rules(df):
-    # Age should be between 18-80 for most customers
-    df['age_valid'] = df['age'].between(18, 80)
-    # Income should be positive
-    df['income_valid'] = df['annual_income'] > 0
-    return df
-```
-
-Extending to Other Datasets:
-
-The cleaning pipeline is modular and can be adapted for other datasets by modifying the configuration parameters and validation rules.
-
-📈 Next Steps
-
-The cleaned dataset is now ready for:
-
-· Exploratory Data Analysis (EDA)
-· Customer Segmentation Analysis
-· Predictive Modeling
-· Business Intelligence Dashboards
-
-👨‍💻 Author
-
-Your Name
-Data Analyst Intern Candidate
-Elevate Labs Solutions
-
-📄 License
-
-This project is created for educational purposes as part of the Elevate Labs Data Analyst Internship application process.
 
 ---
 
-🎯 Interview Questions Prepared
-
-Technical Questions:
-
-1. How do you handle missing values in a dataset?
-   · Discussed strategies: removal vs imputation, statistical methods
-2. What's the difference between dropna() and fillna()?
-   · Practical implementation shown in code
-3. How do you identify and treat outliers?
-   · Demonstrated IQR method and capping techniques
-4. What are common data cleaning challenges?
-   · Addressed through real-world examples in the project
-
-Business Questions:
-
-1. Why is data cleaning important for business analysis?
-   · Connected data quality to business decision accuracy
-2. How do you prioritize which data issues to fix first?
-   · Implemented risk-based approach in the pipeline
+## 📌 Key Learnings
+- Hands-on practice in data cleaning and preprocessing
+- Improved skills in Pandas & data manipulation
+- Deeper understanding of real-world data issues
+- Experience with complete data cleaning pipeline
+- Produced a dataset ready for analysis, visualization, or modeling
 
 ---
 
-🚀 Ready for Analysis! - The dataset is now clean, validated, and prepared for advanced analytical tasks.
+## 🔄 Next Steps
+- Perform exploratory data analysis (EDA) on the cleaned dataset
+- Create data visualizations and dashboards
+- Build predictive models using the cleaned data
+- Implement data validation checks for future data ingestion
+
+---
+
+## 📄 License
+This project is licensed under the MIT License - feel free to use, modify, and share.
+
+---
+
+## 👥 Contributing
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📞 Contact
+manishsharma93155@gmail.com
+---
