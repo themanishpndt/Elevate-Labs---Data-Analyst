@@ -1,4 +1,3 @@
-I understand you want a detailed README file for your Task 1 project. Since I'm currently unable to create new files directly, let me provide you with a comprehensive README template that you can save as a `.md` file:
 
 # 📊 Task 1 - Data Cleaning & Preprocessing (Elevate Labs Internship)
 
