@@ -134,7 +134,7 @@ This project was created as part of the Elevate Labs Data Analyst assessment. Fo
 
 ## 📧 Contact
 
-- **Developer:** Manish Pandey
+- **Manish Sharma** 
 - **GitHub:** [@themanishpndt](https://github.com/themanishpndt)
 - **Project Link:** [https://github.com/themanishpndt/Elevate-Labs---Data-Analyst/Task%202](https://github.com/themanishpndt/Elevate-Labs---Data-Analyst/tree/main/Task%202)
 
