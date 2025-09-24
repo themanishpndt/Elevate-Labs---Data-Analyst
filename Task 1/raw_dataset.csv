@@ -1,0 +1,239 @@
+CustomerID,Gender,Age,Annual Income (k$),Spending Score (1-100),JoinDate,Country,Email,PurchaseCount,LastPurchaseDate,Churn
+1052,F,38.0,$75k,81.0,16/08/2019,U.A.E,user5254@yahoo.com,3,2020/03/29,1
+1086,MALE ,47.0,104.34,37.0,2018-05-29,U.k,user1201@company.co,1,2020-11-16,No
+1095,unknown,33.0,28.95,45.0,22-12-2018,India,user4330@yahoo.com,1,,no
+1076,M,34.0,51.93,22.0,2022/09/06,UK,user2293@gmail.com,0,,yes
+1021,,57.0,43.99,49.0,2022-10-29,india,user8798@hotmail.com,3,2023/04/08,Y
+1109,f,19.0,44.47,55.0,"September 11, 2019",IN,user7158@example.com,3,21-08-2021,0
+1055,m,39.0,7.11,58.0,2020/02/04,United Kingdom,user3682@gmail.com,0,2020-09-16,N
+1091,unknown,27.0,54.81,32.0,"October 07, 2021",IN,user2968@hotmail.com,2,12-01-2024,Yes
+1096,m,31.0,88.43,43.0,2018/05/22,us,user2219@example.com,2,2020/12/16,yes
+1065,male,34.0,$132k,49.0,09/10/2018,U.k,user7497@yahoo.com,2,"February 20, 2020",
+1094,FEMALE,45.0,53.8,32.0,"November 23, 2020",UK,user1076@hotmail.com,0,13-05-2022,Y
+1083,male,19.0,38.87,14.0,2021/02/20,United States,user3023@yahoo.com,2,,FALSE
+1060,M,,68.79,32.0,"February 16, 2020",us,user1342example.com,0,08/02/2021,
+1088,female,44.0,72.76,25.0,"February 01, 2020",United Kingdom,user7710@gmail.com,2,2020/04/13,No
+1011,,50.0,60.55,91.0,15-03-2020,United States,user373@hotmail.com,2,07/04/2021,No
+1096,female,29.0,66.23,72.0,2021/10/13,united arab emirates,user1480example.com,0,"September 01, 2023",FALSE
+1028,f,51.0,101.77,27.0,20-07-2021,united arab emirates,user5086@yahoo.com,2,,no
+1080,,33.0,91.87,1.0,22/04/2018,U.S.A,user7752@hotmail.com,1,2018-12-05,0
+1106,M,15.0,56.31,48.0,22/05/2020,U.S.A,user5777@company.co,0,2023-01-17,N
+1027,,38.0,19.66,58.0,13/11/2018,united arab emirates,user6756@gmail.com,1,08/01/2020,1
+1066,M,40.0,62.3,17.0,22-10-2019,us,user4068@hotmail.com,2,23/01/2022,Yes
+1048,female,37.0,139.31,44.0,2021/04/01,United States,user6224@company.co,6,"March 03, 2023",1
+1105,FEMALE,43.0,60.55,58.0,27/09/2020,India,user3614hotmail.com,1,2022/12/05,FALSE
+1091,M,,73.45,53.0,"September 23, 2022",U.k,user1195@hotmail.com,3,06-12-2024,Yes
+1091,,,$48k,64.0,18/11/2020,United Kingdom,user2168@company.co,2,08/01/2022,N
+1102,f,54.0,25.61,57.0,"August 19, 2021",India,user2317gmail.com,1,2023-03-02,1
+1057,MALE ,30.0,34.99,32.0,2022/08/25,U.k,user3696@yahoo.com,3,,Y
+1060,Female,22.0,65.09,52.0,"August 01, 2021",United States,user2189@example.com,1,30-09-2022,no
+1078,M,39.0,116.29,73.0,13/03/2020,india,user6172@hotmail.com,1,08-04-2022,N
+1079,male,35.0,62.99,37.0,2018-10-30,united arab emirates,user6966@yahoo.com,1,20-12-2018,No
+1073,m,15.0,49.93,91.0,2022-04-05,us,user7799@gmail.com,1,,yes
+1083,m,49.0,$74k,24.0,2022-04-21,IN,user139@yahoo.com,0,"January 05, 2025",yes
+1110,Female,20.0,,66.0,18-04-2021,india,user2429@company.co,1,2023-11-21,FALSE
+1095,F,30.0,,57.0,14/12/2022,U.S.A,user2427@example.com,0,2025-03-08,0
+1068,,31.0,$59k,32.0,09/03/2019,USA,user127@example.com,0,26/02/2021,TRUE
+1085,Male,48.0,N/A,73.0,2018/09/17,U.A.E,,3,22-09-2019,FALSE
+1036,male,13.0,42.73,53.0,18/09/2019,india,user18@yahoo.com,2,2021/08/14,Y
+1046,,37.0,71.23,47.0,2018/10/15,U.k,user1979@example.com,2,2019-09-26,yes
+1059,female,45.0,N/A,27.0,2021-06-13,india,user551@example.com,3,,Y
+1110,male,33.0,89.29,13.0,10-07-2020,U.S.A,user8215@yahoo.com,1,"November 14, 2022",N
+1031,MALE ,32.0,89.15,66.0,25-06-2018,india,user8915@company.co,2,,no
+1080,F,19.0,61.37,33.0,2021/12/01,UAE, user3921@yahoo.com,4,2022-07-19,no
+1048,Female,25.0,44.95,72.0,17-01-2018,UAE,user2201@hotmail.com,2,"October 22, 2018",FALSE
+1022,unknown,45.0,30.36,50.0,2021-02-28,India,user4337@yahoo.com,1,22-07-2022,1
+1095,male,48.0,,73.0,20/09/2021,United Kingdom,user4396@gmail.com,2,,yes
+1068,female,16.0,49.12,64.0,2022-07-30,United States,user6364@hotmail.com,0,29-03-2023,0
+1038,MALE ,29.0,N/A,55.0,2020/09/07,India,user7828@gmail.com,3,,
+1030,male,35.0,64.75,,2019/07/14,U.S.A,user6151@example.com,1,11-09-2021,1
+1023,m,26.0,,,"April 14, 2018",USA,user7606@company.co,3,"December 17, 2018",no
+1048,F,22.0,44.09,30.0,2018-08-21,United Kingdom,user1930@hotmail.com,1,"May 08, 2020",no
+1039,Female,26.0,113.93,66.0,"September 30, 2020",IN,user6610@gmail.com,2,2022-10-21,FALSE
+1098,female,32.0,58.57,23.0,"April 14, 2018",U.k,user2617@hotmail.com,1,2018/09/24,TRUE
+1036,F,28.0,48.8,20.0,2021/02/01,USA,user6869@yahoo.com,2,03-05-2023,Y
+1081,M,29.0,100.03,,2019-02-13,USA,user8898@example.com,3,2020-02-13,
+1006,FEMALE,,62.47,76.0,unknown,United States,user4980@company.co,5,08/04/2023,TRUE
+1098,FEMALE,63.0,90.44,38.0,2020/10/29,USA,user1947@yahoo.com,0,11-10-2021,0
+1074,M,51.0,33.49,64.0,unknown,IN,user12@example.com,4,"March 20, 2024",Yes
+1077,F,52.0,70.28,61.0,2022-03-14,us,,4,20/05/2024,No
+1014,MALE ,38.0,69.07,87.0,2018/10/29,United States,user5728@gmail.com,3,2019-11-28,0
+1069,female,40.0,66.23,56.0,03/02/2022,india,user1901@example.com,1,08/12/2023,N
+1083,female,32.0,51.82,1.0,13-11-2022,India,user4594@company.co,3,2023-10-01,No
+1032,MALE ,47.0,6.64,87.0,"December 28, 2020",U.S.A,user8148@example.com,2,"May 06, 2023",No
+1044,female,,66.96,78.0,2021-07-20,UK,user6879@example.com,4,23-09-2023,FALSE
+1010,Male,34.0,120.1,74.0,2020/07/12,India,user1939company.co,1,,FALSE
+1011,Male,29.0,,86.0,2020/06/26,United Kingdom,user3532@company.co,2,21-05-2022,no
+1023,female,150.0,1.25,43.0,2022-05-28,us,user6610@example.com,0,,No
+1072,,34.0,$69k,,"June 09, 2018",U.k, user6844@hotmail.com,4,06-09-2020,no
+1057,female,30.0,15.08,67.0,2022-10-04,UK,user5326@example.com,1,25-04-2025,0
+1049,,29.0,$42k,71.0,"February 23, 2021",United States,user7607@hotmail.com,0,,Y
+1065,M,38.0,36.04,95.0,2021-06-30,India,user324@gmail.com,5,"January 11, 2023",no
+1012,FEMALE,26.0,133.02,5.0,2019/04/28,U.S.A,user188@hotmail.com,3,,N
+1029,F,32.0,,57.0,2021/10/22,United Kingdom,user8752@gmail.com,3,2022/01/15,Yes
+1031,m,39.0,98.61,38.0,15-02-2021,United States,user5412@gmail.com,1,,No
+1013,,30.0,123.99,1.0,"August 28, 2019",IN,user8838@hotmail.com,4,2020/05/17,1
+1068,unknown,,49.95,62.0,2018/11/07,United Kingdom,user1421@gmail.com,2,2019/11/01,0
+1018,m,27.0,51.25,34.0,11-10-2018,united arab emirates,,0,,
+1049,,29.0,$42k,71.0,"February 23, 2021",United States,user7607@hotmail.com,0,,Y
+1010,Male,34.0,120.1,74.0,2020/07/12,India,user1939company.co,1,,FALSE
+1034,female,14.0,108.62,89.0,19-02-2022,U.A.E,user7016@yahoo.com,1,2024-05-23,FALSE
+1060,F,27.0,66.55,72.0,"April 09, 2021",USA,user7711@hotmail.com,3,"September 29, 2023",0
+1074,f,37.0,44.79,38.0,"April 11, 2022",united arab emirates,user431@company.co,0,"October 12, 2022",1
+1043,m,52.0,66.41,56.0,02/09/2019,us, user8044@yahoo.com,3,,
+1088,MALE ,32.0,86.51,,unknown,UAE,user3670@hotmail.com,3,05/09/2020,no
+1050,FEMALE,38.0,8.69,16.0,21-12-2018,USA,user5155@example.com,1,30/04/2020,No
+1009,,,,19.0,2022-09-15,United States,user1875@company.co,2,27/09/2023,FALSE
+1032,male,21.0,$24k,70.0,2022-09-09,united arab emirates,user2725@example.com,2,08/11/2022,yes
+1044,Female,52.0,$31k,74.0,25/06/2018,United Kingdom,user3938@example.com,0,"September 28, 2018",No
+1070,F,51.0,136.17,41.0,21-10-2022,India,user4893@example.com,4,24-11-2024,FALSE
+1037,F,36.0,34.32,49.0,14-06-2018,us,user4103@gmail.com,2,24-01-2020,Y
+1042,f,36.0,71.83,39.0,2018/04/24,us,user946@company.co,2,"June 03, 2019",Y
+1101,m,21.0,112.57,73.0,22/01/2021,UK,,0,14/09/2023,no
+1098,m,62.0,,38.0,2021-07-26,India,user6165@hotmail.com,2,2022-12-11,Yes
+1056,M,-3.0,29.27,43.0,23-02-2020,United Kingdom,user2345@yahoo.com,3,2020/03/03,1
+1011,male,42.0,50.71,58.0,2019/12/15,U.A.E,user5226@gmail.com,3,,0
+1091,Female,38.0,88.62,66.0,16/09/2021,UK,user2442@hotmail.com,2,27-07-2022,FALSE
+1083,,28.0,20.39,95.0,22/09/2020,IN,user4847@gmail.com,2,2022-03-15,
+1091,Female,38.0,88.62,66.0,16/09/2021,UK,user2442@hotmail.com,2,27-07-2022,FALSE
+1035,f,27.0,77.12,30.0,23/12/2020,India,user5412@example.com,1,,TRUE
+1045,f,33.0,84.2,59.0,24-10-2022,UAE,user2222@example.com,0,02/03/2023,No
+1040,F,21.0,12.17,35.0,2022/05/13,us,user3272@company.co,0,"October 24, 2024",TRUE
+1050,unknown,28.0,58.87,77.0,"June 28, 2022",U.k,user2195@hotmail.com,3,07/06/2024,TRUE
+1109,male,16.0,62.06,23.0,2022/12/31,U.A.E,user6992@company.co,3,"April 04, 2024",No
+1039,Male,48.0,68.7,43.0,29-07-2022,U.S.A,user3291@example.com,2,2023/05/23,FALSE
+1002,MALE ,150.0,27.57,76.0,"December 08, 2018",united arab emirates,user1935@gmail.com,6,03-09-2019,
+1058,Male,47.0,29.2,53.0,2021-09-28,U.S.A,user6783@company.co,2,2023/03/17,TRUE
+1026,,64.0,41.31,,2020-08-02,U.k,user6472example.com,2,09/03/2021,1
+1082,male,,74.9,46.0,2021-01-21,India,,2,22-06-2022,Y
+1104,Male,28.0,18.38,73.0,"June 20, 2021",U.A.E,,2,"August 20, 2023",N
+1044,unknown,34.0,51.53,57.0,2018/12/06,U.S.A,user3892@example.com,4,02-08-2019,No
+1016,,47.0,41.14,38.0,25/08/2020,IN,user8328@yahoo.com,0,"October 23, 2021",TRUE
+1030,MALE ,,52.85,40.0,18/02/2020,United States,,1,09/06/2020,Y
+1042,unknown,,16.97,64.0,"September 22, 2021",united arab emirates,user3569@example.com,1,"July 09, 2022",TRUE
+1096,F,37.0,30.65,60.0,2022-08-12,United Kingdom,user6966@gmail.com,2,2025-01-23,no
+1059,Female,45.0,66.73,76.0,2018-09-29,IN,user7909@company.co,3,01-10-2019,Y
+1092,MALE ,20.0,75.44,80.0,12/10/2018,India,user6045@example.com,0,2019-01-08,1
+1043,Female,34.0,83.89,42.0,2019/01/18,U.S.A,user8508@hotmail.com,3,,FALSE
+1036,F,28.0,48.8,20.0,2021/02/01,USA,user6869@yahoo.com,2,03-05-2023,Y
+1010,F,18.0,75.03,23.0,30-07-2018,india,user8337gmail.com,1,"November 25, 2019",yes
+1097,M,53.0,$33k,15.0,2019/11/14,IN,user8447@yahoo.com,2,"August 06, 2021",FALSE
+1052,MALE ,22.0,74.47,44.0,"February 01, 2021",United Kingdom,user4119@yahoo.com,0,,TRUE
+1026,F,49.0,5.1,6.0,09-05-2018,UK,user5341@yahoo.com,2,"October 31, 2019",FALSE
+1014,F,31.0,,97.0,11-11-2022,UAE,user997@example.com,1,,no
+1006,MALE ,35.0,133.9,45.0,"February 08, 2019",UAE,user5144@gmail.com,1,"April 01, 2020",yes
+1007,Female,46.0,,84.0,06-07-2022,UK,user3423@hotmail.com,2,2023-01-16,no
+1002,Female,18.0,14.2,48.0,2022/04/21,us,user8792@company.co,2,26/09/2023,Yes
+1040,F,43.0,89.53,44.0,24/03/2018,U.S.A,user4067@hotmail.com,3,10/07/2020,Y
+1101,Male,25.0,18.9,30.0,2022/08/12,U.S.A,user7533@yahoo.com,2,15-05-2023,TRUE
+1013,,45.0,34.82,42.0,2018-07-21,U.S.A,user1791@yahoo.com,3,"January 24, 2019",no
+1035,Male,14.0,75.15,71.0,2021/01/08,UK,user6181@example.com,1,09-09-2021,yes
+1108,,40.0,36.5,41.0,"April 26, 2019",UK,user2472@yahoo.com,4,2020/06/23,0
+1091,M,,73.45,53.0,"September 23, 2022",U.k,user1195@hotmail.com,3,06-12-2024,Yes
+1088,female,32.0,$43k,52.0,2019-07-03,U.k,user5156@yahoo.com,1,14/10/2020,1
+1053,M,65.0,$75k,35.0,2020-02-04,UAE,user7917example.com,2,21-02-2020,1
+1078,MALE ,23.0,83.61,78.0,2021/03/25,U.A.E,user3979@gmail.com,4,2023-06-27,FALSE
+1104,MALE ,38.0,,66.0,08-03-2021,United States,user8065@company.co,0,,No
+1010,male,47.0,96.15,20.0,20-02-2020,United Kingdom,user7049@gmail.com,3,06-08-2022,No
+1014,Male,22.0,84.42,26.0,2020/02/06,UAE, user8200@yahoo.com,4,,yes
+1103,m,25.0,80.23,47.0,"October 11, 2019",India,user7287@hotmail.com,1,,yes
+1021,FEMALE,13.0,67.79,27.0,2019-08-08,india,user3805@company.co,2,,Yes
+1088,F,26.0,71.01,,15-03-2021,UAE,user2416@gmail.com,0,02/09/2021,No
+1107,MALE ,25.0,49.7,61.0,"March 21, 2020",United States,user2755@gmail.com,1,"October 04, 2022",0
+1100,male,46.0,93.66,82.0,17-03-2021,IN,user2357@company.co,2,,0
+1072,Male,56.0,72.39,35.0,2022/03/17,U.A.E,,1,"January 30, 2023",N
+1053,MALE ,53.0,N/A,63.0,"June 01, 2019",united arab emirates,user8432@gmail.com,0,10-12-2019,0
+1064,FEMALE,34.0,78.62,54.0,11/10/2019,U.k,user8952@yahoo.com,6,28-10-2019,N
+1080,Male,45.0,41.88,57.0,18/11/2018,india,user6694@example.com,4,,1
+1069,Female,,56.0,24.0,2018-08-08,United States,user8626@hotmail.com,3,2019/08/25,no
+1090,Female,38.0,94.28,68.0,"March 11, 2021",India,user3444@example.com,2,2022/06/06,
+1081,unknown,30.0,65.27,60.0,"August 25, 2018",United Kingdom,user4342@gmail.com,0,"September 19, 2019",Yes
+1064,M,57.0,84.61,62.0,"August 10, 2022",USA,user1111@hotmail.com,4,,yes
+1107,M,41.0,67.27,100.0,08/04/2018,united arab emirates,user1030@gmail.com,4,15-01-2020,FALSE
+1088,Male,20.0,61.75,21.0,02-05-2020,U.k,user8562@example.com,4,"July 15, 2021",FALSE
+1107,unknown,28.0,61.14,53.0,09/06/2019,USA,user821@gmail.com,2,"June 11, 2020",yes
+1035,Male,14.0,75.15,71.0,2021/01/08,UK,user6181@example.com,1,09-09-2021,yes
+1083,Female,46.0,105.71,1.0,2020/06/19,United States,user2354@hotmail.com,1,2021/06/07,Yes
+1072,Male,56.0,72.39,35.0,2022/03/17,U.A.E,,1,"January 30, 2023",N
+1098,,28.0,45.84,77.0,24/07/2019,us,user8057@gmail.com,0,08/11/2019,0
+1019,MALE ,6.0,75.53,31.0,2021/07/09,india,user1526@example.com,0,2022/07/21,no
+1034,female,11.0,23.78,23.0,20/02/2019,U.k,user1732@yahoo.com,2,21/02/2020,no
+1110,m,24.0,17.63,86.0,"October 04, 2021",UAE,user2804@company.co,1,08-05-2024,No
+1021,FEMALE,13.0,67.79,27.0,2019-08-08,india,user3805@company.co,2,,Yes
+1107,,-3.0,41.99,51.0,"September 02, 2022",United States,user5773@yahoo.com,3,09/09/2024,
+1103,Female,50.0,38.87,31.0,13/09/2019,IN,user6177@gmail.com,1,13-03-2021,yes
+1006,,48.0,28.8,65.0,20-02-2018,U.S.A,user8336@example.com,1,14-01-2019,N
+1089,m,,79.51,47.0,"June 14, 2022",United Kingdom,user1610@yahoo.com,2,"October 06, 2024",1
+1107,,-3.0,41.99,51.0,"September 02, 2022",United States,user5773@yahoo.com,3,09/09/2024,
+1053,,60.0,90.97,12.0,"June 14, 2018",UK,user5189@example.com,2,,
+1052,F,36.0,74.77,57.0,07/05/2018,us,user1377@company.co,1,,N
+1029,Male,38.0,18.94,,2022/08/27,IN,user7686@example.com,3,,No
+1100,F,38.0,84.82,50.0,2019/07/26,United Kingdom,user6210hotmail.com,2,"February 28, 2020",1
+1093,MALE ,68.0,95.81,55.0,01-08-2021,IN,user2647@company.co,1,"April 06, 2023",no
+1029,,29.0,91.32,67.0,08-12-2021,united arab emirates,user531@yahoo.com,3,22-07-2022,N
+1097,f,40.0,107.4,47.0,2020/12/12,U.S.A,user1839@gmail.com,2,14/06/2022,Yes
+1051,MALE ,33.0,53.37,65.0,2021-08-08,UAE,user2103@company.co,1,25-10-2022,Y
+1006,,51.0,8.07,86.0,2021-09-07,U.A.E,user2186@gmail.com,3,2024/01/05,no
+1007,FEMALE,43.0,61.56,,30/05/2019,united arab emirates,user7260@yahoo.com,0,11-07-2021,TRUE
+1013,M,22.0,41.29,97.0,2019/03/13,United States,user7131@gmail.com,2,2020-02-15,N
+1026,male,33.0,28.94,36.0,"September 28, 2022",U.A.E,,2,"March 28, 2025",Yes
+1003,male,45.0,29.73,10.0,2018-06-11,india,user8728@yahoo.com,2,09-03-2019,FALSE
+1001,FEMALE,51.0,89.19,69.0,2021/02/12,USA,user959@company.co,3,04-04-2021,no
+1101,female,41.0,53.93,44.0,19/03/2019,IN,user47@hotmail.com,2,30/11/2019,N
+1006,,29.0,70.4,48.0,unknown,U.A.E,,1,07-02-2021,no
+1039,Male,48.0,68.7,43.0,29-07-2022,U.S.A,user3291@example.com,2,2023/05/23,FALSE
+1027,MALE ,38.0,101.16,54.0,2018-04-15,USA,,2,"August 26, 2018",Yes
+1049,MALE ,28.0,78.99,55.0,2019-01-04,United States,,2,2019-10-18,no
+1081,female,35.0,96.01,95.0,2020-11-05,United Kingdom,,1,2021-08-25,
+1053,unknown,42.0,18.24,29.0,07/02/2021,U.k,user5658@yahoo.com,1,07-07-2022,
+1070,Male,36.0,56.09,62.0,24/04/2022,U.S.A,user726@company.co,1,"June 02, 2024",yes
+1094,female,26.0,N/A,,11/02/2022,U.S.A,user1683@example.com,0,,Y
+1006,MALE ,38.0,65.93,61.0,2019/07/31,UAE,,2,12/03/2020,yes
+1056,F,26.0,59.74,1.0,"October 03, 2019",IN,user7771@gmail.com,2,"November 03, 2021",Yes
+1013,,30.0,123.99,1.0,"August 28, 2019",IN,user8838@hotmail.com,4,2020/05/17,1
+1060,Female,30.0,90.19,35.0,"February 17, 2022",U.k,user3165@yahoo.com,2,30-04-2023,0
+1088,Female,29.0,52.88,96.0,27/06/2020,India,,0,"April 23, 2021",0
+1090,M,39.0,,73.0,26-07-2018,U.k,user6863@gmail.com,3,2020-10-06,no
+1041,Female,40.0,84.53,12.0,"July 10, 2018",U.k,user508@example.com,3,2018-12-17,N
+1026,unknown,30.0,66.14,24.0,22-03-2018,United States, user7876@hotmail.com,4,,N
+1091,unknown,27.0,54.81,32.0,"October 07, 2021",IN,user2968@hotmail.com,2,12-01-2024,Yes
+1020,M,50.0,72.38,1.0,22/10/2019,U.A.E,user1277@company.co,4,22/04/2020,TRUE
+1042,MALE ,41.0,85.41,80.0,12-03-2022,us,user8565gmail.com,5,"October 02, 2022",Yes
+1078,m,,120.31,6.0,29/11/2019,U.S.A,,2,19/11/2021,N
+1028,F,41.0,82.42,65.0,"August 13, 2021",USA,user2002@example.com,3,2024-05-03,Y
+1030,FEMALE,,45.75,33.0,21/09/2021,India,user5440@gmail.com,3,2023-01-01,Yes
+1048,F,22.0,44.09,30.0,2018-08-21,United Kingdom,user1930@hotmail.com,1,"May 08, 2020",no
+1087,f,10.0,2.44,49.0,2018-03-20,U.S.A,user5140@example.com,1,31/10/2019,1
+1039,F,46.0,103.58,59.0,27-11-2021,U.A.E,user6798@gmail.com,2,2022-09-09,0
+1029,f,39.0,69.71,42.0,2022/10/21,india,user292@gmail.com,1,2025-02-12,FALSE
+1092,Female,52.0,50.99,29.0,2022-03-12,UK,user6462@gmail.com,1,23/07/2022,1
+1052,MALE ,22.0,74.47,44.0,"February 01, 2021",United Kingdom,user4119@yahoo.com,0,,TRUE
+1049,female,34.0,39.71,95.0,16-01-2018,U.S.A,user4632@hotmail.com,1,"October 26, 2018",1
+1065,male,34.0,$132k,49.0,09/10/2018,U.k,user7497@yahoo.com,2,"February 20, 2020",
+1058,f,36.0,,22.0,10-07-2018,U.S.A,user203@hotmail.com,0,02/02/2020,FALSE
+1098,MALE ,43.0,56.28,68.0,2019-08-03,USA,user2940hotmail.com,4,2022-04-26,TRUE
+1020,M,50.0,72.38,1.0,22/10/2019,U.A.E,user1277@company.co,4,22/04/2020,TRUE
+1077,F,52.0,70.28,61.0,2022-03-14,us,,4,20/05/2024,No
+1072,m,38.0,90.32,35.0,04/04/2022,U.S.A,user3528@hotmail.com,1,22-03-2023,1
+1087,f,20.0,103.24,14.0,2019/05/28,United States,user7917@gmail.com,3,"May 13, 2021",Y
+1002,MALE ,30.0,67.28,54.0,2018-07-02,U.S.A,user2247@example.com,3,25/05/2020,N
+1067,M,31.0,105.12,1.0,2019/07/20,united arab emirates,user4124@yahoo.com,2,2020-10-30,Yes
+1102,M,41.0,38.19,43.0,2021-11-15,UAE,user3367@company.co,1,2023-09-07,No
+1102,MALE ,38.0,75.85,55.0,03/05/2022,USA,user1295@hotmail.com,2,08/12/2022,TRUE
+1044,f,35.0,63.82,40.0,2021-10-11,U.k,user437@company.co,1,14-12-2023,FALSE
+1036,Male,21.0,35.49,87.0,"April 07, 2018",UAE,user8593@hotmail.com,3,12-10-2018,no
+1086,,39.0,N/A,37.0,2021/10/20,india,user6002@hotmail.com,3,2023/09/15,0
+1045,,52.0,101.4,34.0,10/08/2021,United Kingdom,user2710@gmail.com,2,2022-05-21,TRUE
+1065,,44.0,90.98,4.0,"February 03, 2020",united arab emirates,user858@hotmail.com,0,"November 19, 2020",
+1054,f,40.0,33.87,60.0,24-03-2019,UK,user145@gmail.com,0,11-12-2020,No
+1037,,31.0,43.47,,2022/07/26,UAE,user3676@company.co,0,"July 07, 2024",
+1098,F,35.0,116.46,83.0,15-01-2022,UK,user963company.co,4,2023-11-30,Y
+1053,,60.0,90.97,12.0,"June 14, 2018",UK,user5189@example.com,2,,
+1021,MALE ,40.0,55.02,55.0,18/09/2019,UAE,user5379@hotmail.com,4,05-07-2021,yes
+1034,,36.0,39.57,71.0,08-07-2022,U.S.A,user418@example.com,2,2023-08-09,FALSE
+1094,,35.0,89.51,61.0,2021-09-04,united arab emirates,user7602@company.co,3,05-04-2023,0
+1054,M,68.0,11.67,46.0,"November 22, 2022",India,user1759@hotmail.com,0,10/04/2024,TRUE
+1065,f,30.0,58.17,14.0,2019/04/27,U.k,user652@company.co,2,"March 15, 2020",No
+1107,male,44.0,51.75,1.0,"November 28, 2020",USA,user4497@yahoo.com,2,,
+1017,Male,28.0,106.97,48.0,"June 13, 2019",united arab emirates,,2,23-07-2020,0
+1070,female,39.0,57.45,55.0,"May 20, 2019",United States,user4877@hotmail.com,1,"September 22, 2020",TRUE

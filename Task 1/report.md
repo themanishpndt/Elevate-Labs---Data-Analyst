@@ -1,0 +1,31 @@
+# Deep Dive Report\n\nBefore cleaning:\nRows: 238 Columns: 11\nDuplicates: 18\nMissing before: {
+  "customerid": 0,
+  "gender": 33,
+  "age": 15,
+  "annual_income_k": 13,
+  "spending_score_1_100": 11,
+  "joindate": 0,
+  "country": 0,
+  "email": 19,
+  "purchasecount": 0,
+  "lastpurchasedate": 40,
+  "churn": 19
+}\n\nAfter cleaning:\nRows: 220 Columns: 17\nMissing after: {
+  "customerid": 0,
+  "gender": 29,
+  "age": 0,
+  "annual_income_k": 0,
+  "spending_score_1_100": 0,
+  "joindate": 4,
+  "country": 0,
+  "email": 17,
+  "purchasecount": 0,
+  "lastpurchasedate": 0,
+  "churn": 16,
+  "email_clean": 17,
+  "email_valid": 0,
+  "churn_flag": 0,
+  "annual_income_k_capped": 0,
+  "joindate_clean": 4,
+  "lastpurchasedate_clean": 0
+}\n

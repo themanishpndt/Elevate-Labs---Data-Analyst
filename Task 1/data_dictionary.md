@@ -1,0 +1,1 @@
+# Data Dictionary\n\n- customerid: Unique customer id\n- gender: Male/Female/Unknown\n- age: int\n- annual_income_k: float (k$)\n- annual_income_k_capped: float (capped)\n- spending_score_1_100: int\n- joindate: datetime\n- lastpurchasedate: datetime\n- email_clean: cleaned email\n- email_valid: boolean\n- purchasecount: int\n- churn_flag: 0/1\n
